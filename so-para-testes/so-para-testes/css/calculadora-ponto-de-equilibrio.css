@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.calculadora-de-metas {
+  width: 30%;
+  height: 60%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid grey;
+  border-radius: 15px;
+  padding: 1.5rem;
+  -webkit-box-shadow: -1px 2px 14px -3px rgba(107, 107, 107, 0.85);
+  box-shadow: -1px 2px 14px -3px rgba(107, 107, 107, 0.85);
+}
